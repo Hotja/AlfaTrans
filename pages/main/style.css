@@ -23,9 +23,23 @@ header {
   height: 600px;
   background-image: url(/AlfaTrans/assets/header/main-bg-1.jpg);
 }
+.logo {
+  display: flex;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.logo-img {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-image: url(/AlfaTrans/assets/header/logo.gif);
+}
 .hide-nav {
   display: block;
   height: 200px;
+  opacity: 0;
 }
 .main-nav {
   display: flex;
