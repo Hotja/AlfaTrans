@@ -15,13 +15,13 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* -------------------------------------- header -----------------------------------------*/
+/* -------------------------------------- start header -----------------------------------------*/
 header {
   display: block;
   position: relative;
   width: 100%;
-  height: 600px;
   background-image: url(/AlfaTrans/assets/header/main-bg-1.jpg);
+  background-repeat: no-repeat;
 }
 .logo {
   display: flex;
@@ -98,4 +98,54 @@ header {
   -webkit-box-shadow: 0px 0px 20px rgba(255,255,255);
   -moz-box-shadow: 0px 0px 20px rgba(255,255,255);
   box-shadow: 0px 0px 20px rgba(255,255,255);
+}
+/* -------------------------------------- end header -----------------------------------------*/
+/* -------------------------------------- start main -----------------------------------------*/
+main {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 680px;
+  background: url(/AlfaTrans/assets/main/about-bg.jpg) center repeat-x;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.about-txt {
+  width: 800px;
+  margin: 0 0 100px 100px;
+}
+.about-txt h2 {
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+.about-txt p {
+  font-size: 24px;
+  text-align: justify;
+}
+.about-pride {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  margin-left: 100px;
+  justify-content: space-between;
+}
+.about-pride div {
+  width: 250px;
+  height: 150px;
+  border: 3px solid rgba(255, 95, 2, 0.1);
+  border-radius: 20px;
+  text-align: center;
+}
+.about-pride h2 {
+  font-size: 80px;
+  color: rgb(179, 60, 5);
+}
+.about-pride p {
+  font-size: 18px;
 }
