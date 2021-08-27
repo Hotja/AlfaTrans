@@ -171,3 +171,16 @@ main {
   font-size: 24px;
   text-align: justify;
 }
+
+
+
+
+
+/* ------------------------------ Adaptive --------------------*/
+
+@media (max-width: 1250px) {
+  #nav-menu li{
+    width: 150px;
+    height: 150px;
+  }
+}
