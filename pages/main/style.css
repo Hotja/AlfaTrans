@@ -213,6 +213,9 @@ main {
   .main-nav {
     margin-left: 20px;
   }
+  .about {
+    background-size: 90%;
+  }
   .about-txt {
     width: 90%;
     margin: 100px 20px 100px;
@@ -230,9 +233,12 @@ main {
   .about-pride p {
     font-size: 14px;
   }
+  .services {
+    background-size: 90%;
+  }
   .services-txt {
     width: 90%;
-    margin: 100px 20px 100px;
+    margin: 50px 20px 100px;
   }
 }
 
@@ -261,6 +267,7 @@ main {
   }
   .about {
     height: 400px;
+    background-size: 80%;
   }
   .about-txt {
     width: 90%;
@@ -290,6 +297,7 @@ main {
   }
   .services {
     height: 250px;
+    background-size: 80%;
   }
   .services-txt {
     width: 90%;
