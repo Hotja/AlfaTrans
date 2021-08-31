@@ -278,6 +278,7 @@ footer {
     font-size: 14px;
   }
   .services {
+    height: 470px;
     background-size: 90%;
   }
   .services-txt {
