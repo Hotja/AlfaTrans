@@ -192,6 +192,10 @@ footer {
   list-style-type: none;
   text-decoration: none;
 }
+.footer-nav li:first-child {
+  font-size: 36px;
+  color: rgb(179, 60, 5);
+}
 .footer-nav li {
   width: 200px;
 }
@@ -210,8 +214,8 @@ footer {
   margin: 15px 30px;
 }
 .footer-messagers img {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 .directed-by {
   display: block;
@@ -288,8 +292,11 @@ footer {
   .footer-wraper {
     padding: 0 20px;
   }
+  .footer-nav li:first-child {
+    font-size: 24px;
+  }
   .footer-nav li {
-    width: 100px;
+    width: 115px;
     font-size: 12px;
   }
   .footer-messagers {
@@ -326,7 +333,7 @@ footer {
   }
   .about-txt {
     width: 90%;
-    margin: 30px 20px 50px;
+    margin: 30px 10px 50px;
   }
   .about-txt h2 {
     font-size: 24px;
@@ -338,7 +345,7 @@ footer {
   }
   .about-pride {
     width: 90%;
-    margin-left: 20px;
+    margin-left: 10px;
   }
   .about-pride div {
     width: 100px;
@@ -356,7 +363,7 @@ footer {
   }
   .services-txt {
     width: 90%;
-    margin: 30px 20px 50px;
+    margin: 30px 10px 50px;
   }
   .services-txt h2 {
     font-size: 24px;
@@ -366,8 +373,18 @@ footer {
     font-size: 14px;
     text-align: justify;
   }
+  .footer-wraper {
+    padding: 0 10px;
+  }
+  .footer-nav li:first-child {
+    font-size: 16px;
+  }
   .footer-nav li {
     width: 70px;
     font-size: 8px;
+  }
+  .footer-messagers img {
+    width: 30px;
+    height: 30px;
   }
 }
