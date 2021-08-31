@@ -177,6 +177,8 @@ main {
   display: flex;
   position: relative;
   width: 100%;
+  background-color: brown;
+  background: linear-gradient(0deg, #fefcea, #f1da36);
 }
 .footer-wraper {
   padding: 0 100px;
@@ -192,7 +194,10 @@ main {
   text-decoration: none;
 }
 .footer-messagers {
-
+  margin: 50px 100px;
+  border: 3px solid rgba(255, 95, 2, 0.1);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .footer-messagers ul {
   display: flex;
@@ -200,6 +205,11 @@ main {
   list-style-type: none;
   text-decoration: none;
   justify-content: space-between;
+  margin: 10px;
+}
+.footer-messagers img {
+  width: 30px;
+  height: 30px;
 }
 .directed-by {
   display: block;
