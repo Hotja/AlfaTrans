@@ -211,7 +211,7 @@ main {
     height: 100px;
   }
   .main-nav {
-    margin: 20px;
+    margin-left: 20px;
   }
   .about-txt {
     width: 90%;
@@ -257,27 +257,50 @@ main {
     border: 1px solid rgba(0, 0, 0, 0.2);
   }
   .main-nav {
-    margin: 20px;
+    margin: 80px 20px 0;
+  }
+  .about {
+    height: 400px;
   }
   .about-txt {
     width: 90%;
-    margin: 100px 20px 100px;
+    margin: 30px 20px 50px;
+  }
+  .about-txt h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+  .about-txt p {
+    font-size: 14px;
+    text-align: justify;
   }
   .about-pride {
     width: 90%;
     margin-left: 20px;
   }
   .about-pride div {
-    width: 150px;
+    width: 100px;
+    height: auto;
   }
   .about-pride h2 {
-    font-size: 40px;
+    font-size: 24px;
   }
   .about-pride p {
-    font-size: 14px;
+    font-size: 10px;
+  }
+  .services {
+    height: 250px;
   }
   .services-txt {
     width: 90%;
-    margin: 100px 20px 100px;
+    margin: 30px 20px 50px;
+  }
+  .services-txt h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+  .services-txt p {
+    font-size: 14px;
+    text-align: justify;
   }
 }
