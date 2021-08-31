@@ -365,5 +365,8 @@ footer {
     font-size: 14px;
     text-align: justify;
   }
-
+  .footer-nav li {
+    width: 70px;
+    font-size: 8px;
+  }
 }
